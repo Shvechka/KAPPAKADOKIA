@@ -3,6 +3,7 @@
 *::before {
   box-sizing: border-box;
 }
+
 @font-face {
   font-family: "balqis";
   src: url("../fonts/balqis.woff2") format("woff2"),
@@ -11,6 +12,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 body {
   color: #000;
 
@@ -19,24 +21,53 @@ body {
   font-size: 18px;
   line-height: 21px;
 }
+
 a {
   color: inherit;
   text-decoration: none;
 }
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 15px;
 }
 
+.page-section {
+  margin: 200px 0;
+}
+
+.title {
+  font-family: "balqis";
+  font-size: 96px;
+  line-height: 128px;
+  color: #E2AB3F;
+  font-weight: 300;
+  margin-bottom: 100px;
+}
+
+.title span {
+  font-family: "Roboto Condensed", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+display: block;
+  color: #000000;
+  margin-top: -30px;
+  margin-left: 185px;
+}
+
 .header {
   background-image: url(../img/header-img.jpg);
+  background-attachment: fixed;
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
   min-height: 100vh;
 }
+
 .header__top {
   display: flex;
   justify-content: space-between;
@@ -45,12 +76,15 @@ a {
   line-height: 28px;
   font-family: "Roboto Condensed", sans-serif;
 }
+
 .menu__list-item {
   display: inline-block;
 }
-.menu__list-item + .menu__list-item {
+
+.menu__list-item+.menu__list-item {
   margin-left: 52px;
 }
+
 .menu__list-link:hover {
   text-decoration: underline;
 }
@@ -59,6 +93,7 @@ a {
   padding-left: 40px;
   position: relative;
 }
+
 .header__phone::before {
   content: "";
   position: absolute;
@@ -76,6 +111,7 @@ a {
   font-weight: 300;
   font-family: "balqis";
 }
+
 .Header__title span {
   display: block;
   text-align: right;
@@ -88,52 +124,24 @@ a {
   margin-right: 85px;
 }
 
-.description {
-  max-width: 100%;
-  margin-right: 360px;
-}
+.fairy-tail {}
 
-.description__title {
-  display: inline-block;
-  padding-left: 360px;
-  font-family: "balqis";
-  text-align: center;
-  font-weight: 300;
-  font-size: 96px;
-  line-height: 128px;
-  color: #e2ab3f;
-  padding-top: 157px;
-  padding-bottom: 107px;
-}
-.description__title span {
-  display: block;
-  text-align: right;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 28px;
-  font-family: "Roboto Condensed", sans-serif;
-  font-style: italic;
-  margin-top: -26px;
-  margin-right: -83px;
-  color: #000;
-}
-.qo {
-  display: flex;
-}
-.description__text {
-  padding-left: 55px;
-}
+.container {}
 
-.Description__slaider {
-}
-.Description__slaider-item {
-  display: block;
-  max-width: 960px;
-}
-.description__text-item {
-  max-width: 545px;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 21px;
-  padding-top: 50px;
-}
+.fairy-tail__title {}
+
+.fairy-tail__inner {}
+
+.fairy-tail__slaider {}
+
+.fairy-tail__item {}
+
+.fairy-tail__content {}
+
+.fairy-tail__container {}
+
+.fairy-tail__body {}
+
+.fairy-tail__text {}
+
+.fairy-tail__list {}
